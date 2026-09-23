@@ -22,11 +22,12 @@ export default function AIPlannerPage() {
           <h1 className="text-4xl font-medium leading-tight tracking-tight sm:text-5xl">Your pace.<br />Your path.<br /><span className="font-serif italic text-primary">Your next adventure.</span></h1>
           <p className="mt-6 max-w-lg text-sm leading-7 text-muted-foreground">Personalized planning needs trustworthy trail information. We’ll use a verified trek catalog and your preferences to help you explore responsibly—not invent routes, prices or availability.</p>
           <div role="status" className="mt-8 rounded-2xl border border-primary/25 bg-card p-6">
-            <h2 className="flex items-center gap-2 text-lg font-semibold"><Compass size={20} className="text-primary" />Planner not connected yet</h2>
-            <p className="mt-3 text-sm leading-6 text-muted-foreground">AI generation and saved plans are unavailable. The linked Supabase organization must be reconnected, a verified catalog configured, and an AI provider connected before this service can be enabled.</p>
-            <p className="mt-3 text-xs leading-6 text-muted-foreground">No itinerary has been generated or saved. The homepage collection contains illustrative sample treks only.</p>
+            <h2 className="flex items-center gap-2 text-lg font-semibold"><Compass size={20} className="text-primary" />AI planner setup in progress</h2>
+            <p className="mt-3 text-sm leading-6 text-muted-foreground">The Supabase client is configured. You do not need to reconnect it to resolve this message.</p>
+            <p className="mt-3 text-sm leading-6 text-muted-foreground">Itinerary generation still requires a server-side AI integration and provider credentials. Database-backed trek information and saved-plan storage also need implementation.</p>
+            <p className="mt-3 text-xs leading-6 text-muted-foreground">No itinerary has been generated or saved. Until setup is complete, explore the illustrative sample collection below.</p>
           </div>
-          <Link href="/#discover" className="mt-6 inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90">Browse sample treks<ArrowRight size={17} /></Link>
+          <Link href="/treks" className="mt-6 inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90">Browse sample treks<ArrowRight size={17} /></Link>
           <p className="mt-6 flex items-start gap-2 text-xs leading-6 text-muted-foreground"><ShieldCheck size={18} className="mt-1 shrink-0 text-primary" />Trekking advice is informational. Consult qualified operators and medical professionals about fitness, altitude and safety; follow official closures and local guidance.</p>
         </div>
         <div className="relative min-h-[380px] overflow-hidden rounded-3xl border border-border md:min-h-[620px]">
