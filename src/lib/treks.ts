@@ -7,9 +7,9 @@ export const photos = {
   hero: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2400&q=85',
   snow: 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1000&q=85',
   valley: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1000&q=85',
-  lake: 'https://images.unsplash.com/photo-1439853949212-09789ea49f0f?auto=format&fit=crop&w=1000&q=85',
+  lake: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85',
   hills: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85',
-  camp: 'https://images.unsplash.com/photo-1478131143081-fd1d858f26b4?auto=format&fit=crop&w=1000&q=85',
+  camp: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85',
 };
 // Illustrative editorial catalog only. Never use these estimates as booking inventory.
 export const treks: Trek[] = [
