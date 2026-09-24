@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowDown, ArrowRight, ArrowUpRight, CalendarDays, Compass, Footprints, Leaf, MapPin, Mountain, Route, ShieldCheck, Sparkles, Tent, Users } from 'lucide-react';
-import { buttonClass } from '@/components/site-shell';
+import { buttonClass, Header } from '@/components/site-shell';
 import { TrekCard } from '@/components/trek-card';
 import { photos, treks } from '@/lib/treks';
 import { AskAIButton } from '@/components/ai/trek-chat';
 
 export default function Home() {
   return <>
+    <Header />
     <section className="relative min-h-[800px] overflow-hidden pb-32 pt-[165px] lg:min-h-[820px] lg:pt-[186px]">
       <Image src={photos.hero} alt="Dramatic mountain peaks rising into soft cloud" fill priority sizes="100vw" className="object-cover object-[center_45%]" />
       <div className="absolute inset-0 bg-[#091b18]/50" /><div className="absolute inset-0 bg-background/15" />
